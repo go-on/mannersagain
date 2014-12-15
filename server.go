@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/titanous/goagain"
-	"github.com/titanous/manners"
+	"gopkg.in/go-on/goagain.v1"
+	"gopkg.in/go-on/manners.v1"
 )
 
 func newListener(l net.Listener) net.Listener {
